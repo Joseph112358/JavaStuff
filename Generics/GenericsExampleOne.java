@@ -1,10 +1,11 @@
 
 import java.util.StringJoiner;
-//T represents the type (it could be an int,string or yet undefined classes
+//T represents the type (it could be an int,string or yet undefined classes)
  class Pair<T>{
   private final T first;
   private final T second;
 
+  //Setter
   public Pair(T first,T second ){
       this.first = first;
       this.second = second;
